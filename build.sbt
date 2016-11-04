@@ -27,7 +27,8 @@ libraryDependencies ++= {
   val akkaVerion = "2.4.12"
   Seq(
     "org.scalatest" %% "scalatest" % "3.0.0" % "test" ,
-    "com.websudos" %% "phantom-dsl" % "1.29.4"
-    //"com.chrisomeara" % "pillar_2.11" % "2.3.0"
+    "com.websudos" %% "phantom-dsl" % "1.29.4",
+    "com.datastax.cassandra" % "cassandra-driver-core" % "3.0.2",
+    "com.chrisomeara" % "pillar_2.11" % "2.3.0"
   )
 }
